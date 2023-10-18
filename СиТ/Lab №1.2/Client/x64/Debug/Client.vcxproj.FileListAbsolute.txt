@@ -1,0 +1,6 @@
+I:\Флешка\СиТ\Лабораторная №1\Client\x64\Debug\Client.exe
+E:\Флешка\СиТ\Лабораторная №1\Client\x64\Debug\Client.exe
+C:\Users\Lion125666\source\repos\Лабораторная №1\Client\x64\Debug\Client.exe
+C:\Users\dimaa\Desktop\Лабораторная №1\Client\x64\Debug\Client.exe
+C:\Users\dimaa\Desktop\Лабораторная №1.1\Client\x64\Debug\Client.exe
+C:\Users\Lion125666\Desktop\Лабораторная №1.1\Client\x64\Debug\Client.exe
