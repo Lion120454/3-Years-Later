@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\Lion125666\source\repos\Client\Source.c(23,9): error C2373: connect: переопределение; различные модификаторы типа
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock2.h(1685): message : см. объявление "connect"
+C:\Users\Lion125666\source\repos\Client\Source.c(25,9): error C2374: err: переопределение; множественная инициализация
+C:\Users\Lion125666\source\repos\Client\Source.c(9): message : см. объявление "err"
+C:\Users\Lion125666\source\repos\Client\Source.c(21,35): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings

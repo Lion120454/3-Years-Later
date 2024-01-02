@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\Lion125666\Desktop\Лабораторная №1.1\Client\Source.c(42,25): warning C4133: функция: несовместимые типы - из "int *" в "const char *"
+C:\Users\Lion125666\Desktop\Лабораторная №1.1\Client\Source.c(56,19): warning C4133: функция: несовместимые типы - из "int *" в "char *"
+C:\Users\Lion125666\Desktop\Лабораторная №1.1\Client\Source.c(19,1): warning C4244: инициализация: преобразование "SOCKET" в "int", возможна потеря данных
+  Client.vcxproj -> C:\Users\Lion125666\Desktop\Лабораторная №1.1\Client\x64\Debug\Client.exe

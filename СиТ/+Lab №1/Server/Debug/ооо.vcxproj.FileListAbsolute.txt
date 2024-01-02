@@ -1,0 +1,8 @@
+I:\Флешка\СиТ\Лабораторная №1\Server\Debug\ооо.exe
+E:\Флешка\СиТ\Лабораторная №1\Server\Debug\ооо.exe
+C:\Users\Lion125666\source\repos\Лабораторная №1\Server\Debug\ооо.exe
+C:\Users\dimaa\Desktop\Лабораторная №1\Server\Debug\ооо.exe
+C:\Users\dimaa\Desktop\Лабораторная №1.1\Server\Debug\ооо.exe
+C:\Users\Lion125666\Desktop\Лабораторная №1.1\Server\Debug\ооо.exe
+C:\Users\Lion125666\Desktop\Лабораторная №1.2\Server\Debug\ооо.exe
+C:\Users\Lion125666\Desktop\Lab №1.2\Server\Debug\ооо.exe
