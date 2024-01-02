@@ -1,0 +1,17 @@
+CREATE TABLE Exam(
+Abbr VARCHAR(7) REFERENCES DIS(Abbr),
+GrNum VARCHAR(5) REFERENCES STUD_GROUP(GrNum),
+ExDat date,
+PRIMARY KEY (GrNum, ExDat));
+
+
+CREATE TABLE Est(
+Ball INTEGER PRIMARY KEY CHECK (Ball IN (0, 2, 3, 4, 5)),
+Wrd VARCHAR(7) CHECK (Wrd IN ('Н/А', 'Неудовл', 'Удовл', 'Хорошо', 'Отлично')));
+
+CREATE TABLE BALL(
+StNum VARCHAR(6) REFERENCES STUD(StNum),
+Abbr VARCHAR(7) REFERENCES DIS(Abbr),
+Dat date,
+Ball INTEGER REFERENCES EST(Ball),
+PRIMARY KEY (StNum, Abbr));

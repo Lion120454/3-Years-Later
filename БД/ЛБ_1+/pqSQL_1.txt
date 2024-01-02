@@ -1,0 +1,19 @@
+CREATE DATABASE Decanat;
+
+CREATE TABLE STUD_GROUP(
+GrNum VARCHAR(5) CHECK (length(GrNum) = 5 AND GrNum ~ '[0-9]{3}-[0-9]{1}') primary key,
+Cours VARCHAR(1) CHECK (Cours IN ('1', '2', '3', '4', '5')),
+Qt INTEGER CHECK(Qt<=25));
+
+CREATE TABLE STUD(
+StNum VARCHAR(6) PRIMARY KEY CHECK (StNum ~ '^\d{6}$'),
+StNam VARCHAR(45),
+GrNum VARCHAR(5) REFERENCES STUD_GROUP(GrNum),
+Addr VARCHAR(100),
+Tel VARCHAR(25));
+
+CREATE INDEX id_GrNum ON STUD USING BTREE (GrNum);
+
+CREATE TABLE DIS(
+Abbr VARCHAR(7) PRIMARY KEY CHECK(Abbr ~ '[А-Яа-я]{2,7}'),
+DisNam VARCHAR(100));

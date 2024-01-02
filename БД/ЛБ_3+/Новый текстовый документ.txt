@@ -1,0 +1,20 @@
+1) SELECT stud.stnam,stud.stnum,stud.GrNum,exam.abbr,exam.exdat, ball.ball FROM exam
+join stud on exam.grnum=stud.grnum
+left join ball on exam.abbr=ball.abbr and stud.stnum=ball.stnum;
+
+2) SELECT stnam FROM stud WHERE GrNum = '431-3';
+
+3)SELECT stud_group.grnum, exam.abbr, count(*)
+from stud_group
+join stud on stud_group.grnum=stud.grnum
+join exam on stud_group.grnum=exam.grnum
+left join ball on exam.abbr=ball.abbr and stud.stnum=ball.stnum
+where ball.ball=0
+group by stud_group.grnum, exam.abbr;
+
+4)SELECT stud_group.grnum, exam.abbr, AVG(ball.ball)
+from stud_group
+join stud on stud_group.grnum=stud.grnum
+join exam on stud_group.grnum=exam.grnum
+left join ball on exam.abbr=ball.abbr and stud.stnum=ball.stnum
+group by stud_group.grnum, exam.abbr;

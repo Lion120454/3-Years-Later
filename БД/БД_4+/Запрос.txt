@@ -1,0 +1,21 @@
+\! chcp 1251
+
+SELECT stud_group.grnum,count(*)
+from stud_group
+join stud on stud_group.grnum=stud.grnum
+join exam on stud_group.grnum=exam.grnum
+left join ball on exam.abbr=ball.abbr and stud.stnum=ball.stnum
+join est on ball.ball=est.ball
+where ball.ball=0 or ball.ball=2
+group by stud_group.grnum;
+
+
+
+SELECT stud_group.grnum,stud.stnam, exam.abbr,est.wrd
+from stud_group
+join stud on stud_group.grnum=stud.grnum
+join exam on stud_group.grnum=exam.grnum
+left join ball on exam.abbr=ball.abbr and stud.stnum=ball.stnum
+join est on ball.ball=est.ball
+where ball.ball=0 or ball.ball=2
+group by stud_group.grnum,stud.stnam, exam.abbr,est.wrd;

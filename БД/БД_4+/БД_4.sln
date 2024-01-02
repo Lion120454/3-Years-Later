@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "БД_4", "БД_4\БД_4.csproj", "{B640E154-AFEC-43D6-86E8-39D218DD7F36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B640E154-AFEC-43D6-86E8-39D218DD7F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B640E154-AFEC-43D6-86E8-39D218DD7F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B640E154-AFEC-43D6-86E8-39D218DD7F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B640E154-AFEC-43D6-86E8-39D218DD7F36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {865095BA-1F20-4239-87F9-382DE3D42AE5}
+	EndGlobalSection
+EndGlobal
