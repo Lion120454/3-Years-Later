@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Начало работы
+Comment=Ссылка на ученое пособие темы №1
+Exec=evince Тема1_os.pdf
+Icon=evince
+Path=/home/upk/Документы/Темы
+Terminal=false
+StartupNotify=false
